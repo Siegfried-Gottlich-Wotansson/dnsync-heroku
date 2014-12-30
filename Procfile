@@ -1,0 +1,1 @@
+web: bundle exec dnsync --status-port=$PORT
