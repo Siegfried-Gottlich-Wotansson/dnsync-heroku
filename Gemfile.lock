@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:papertrail/dnsync.git
-  revision: 8ac534bc27536b9c17282d63392b379b59a5ff31
+  revision: 336a2e276738d8affca5edcb01bc0c0b55d5336d
   specs:
     dnsync (1.0.0)
       activesupport
