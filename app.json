@@ -1,0 +1,27 @@
+{
+  "name": "DNS Synchronizer",
+  "description": "This app synchronizes a DNS zone from DNSimple to NSONE",
+  "keywords": [
+    "dns"
+  ],
+  "website": "https://github.com/papertrail/dnsync",
+  "repository": "https://github.com/papertrail/dnsync",
+  "success_url": "/status",
+  "env": {
+    "DNSYNC_DOMAIN": {
+      "description": "Domain name to synchronize"
+    },
+    "DNSYNC_DNSIMPLE_EMAIL": {
+      "description": "DNSimple authentication email address"
+    },
+    "DNSYNC_DNSIMPLE_TOKEN": {
+      "description": "DNSimple authentication token"
+    },
+    "DNSYNC_NSONE_TOKEN": {
+      "description": "NSONE authentication token"
+    }
+  },
+  "addons": [
+    "papertrail"
+  ]
+}
