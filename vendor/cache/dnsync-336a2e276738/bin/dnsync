@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'dnsync'
-require 'dnsync/cli'
-
-Dnsync::Cli.new(ARGV).call

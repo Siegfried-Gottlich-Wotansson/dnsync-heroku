@@ -1,15 +1,3 @@
-GIT
-  remote: git@github.com:papertrail/dnsync.git
-  revision: 336a2e276738d8affca5edcb01bc0c0b55d5336d
-  specs:
-    dnsync (1.0.0)
-      activesupport
-      atomic
-      configlet
-      faraday
-      faraday_middleware
-      scrolls
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -21,6 +9,13 @@ GEM
       tzinfo (~> 1.1)
     atomic (1.1.16)
     configlet (2.1.1)
+    dnsync (1.0.0)
+      activesupport
+      atomic
+      configlet
+      faraday
+      faraday_middleware
+      scrolls
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
@@ -38,4 +33,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dnsync!
+  dnsync
