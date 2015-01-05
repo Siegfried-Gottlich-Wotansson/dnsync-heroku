@@ -9,7 +9,7 @@ GEM
       tzinfo (~> 1.1)
     atomic (1.1.16)
     configlet (2.1.1)
-    dnsync (1.0.1)
+    dnsync (1.0.2)
       activesupport
       atomic
       configlet
