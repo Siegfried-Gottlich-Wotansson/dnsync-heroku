@@ -9,7 +9,7 @@ GEM
       tzinfo (~> 1.1)
     atomic (1.1.99)
     configlet (2.1.1)
-    dnsync (1.0.4)
+    dnsync (1.0.5)
       activesupport
       atomic
       configlet
@@ -21,8 +21,8 @@ GEM
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
     i18n (0.7.0)
-    json (1.8.2)
-    minitest (5.5.1)
+    json (1.8.3)
+    minitest (5.7.0)
     multipart-post (2.0.0)
     scrolls (0.3.8)
     thread_safe (0.3.5)
