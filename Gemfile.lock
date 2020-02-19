@@ -1,13 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.1)
-      i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
+    activesupport (6.0.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    atomic (1.1.99)
+      zeitwerk (~> 2.2)
+    atomic (1.1.101)
+    concurrent-ruby (1.1.6)
     configlet (2.1.1)
     dnsync (1.0.5)
       activesupport
@@ -16,18 +17,19 @@ GEM
       faraday
       faraday_middleware
       scrolls
-    faraday (0.9.1)
+    faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.9.1)
-      faraday (>= 0.7.4, < 0.10)
-    i18n (0.7.0)
-    json (1.8.3)
-    minitest (5.7.0)
-    multipart-post (2.0.0)
-    scrolls (0.3.8)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
+    faraday_middleware (0.14.0)
+      faraday (>= 0.7.4, < 1.0)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.0)
+    multipart-post (2.1.1)
+    scrolls (0.9.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
+    zeitwerk (2.2.2)
 
 PLATFORMS
   ruby
